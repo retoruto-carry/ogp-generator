@@ -9,8 +9,6 @@ cloudinary.config({
   api_secret: process.env.API_SECRET
 });
 
-console.log("** ** ** ** ** ** ** ** ** Uploads ** ** ** ** ** ** ** ** ** **");
-
 cloudinary.uploader.upload('https://res.cloudinary.com/dec7on5qy/image/upload/v1563630264/hamburg.jpg',
     {transformation: [
         {gravity: "auto", height: 1080, width: 1920, crop: "thumb"},
@@ -18,9 +16,7 @@ cloudinary.uploader.upload('https://res.cloudinary.com/dec7on5qy/image/upload/v1
         {width: 1700, overlay: {font_family: "Sawarabi Gothic", font_size: 130, font_weight: "bold", text: "Twitterで話題の%0A「ハンバーガーの日」%0Aについて調べてみた"}, color: "#333", crop: "fit"}
     ]},
     function (err, image) {
-        console.log();
-        console.log("** Remote Url");
         if (err) { console.warn(err); }
-        console.log("* " + image.public_id);
-        console.log("* " + image.url);
+        console.log(image.url);
+        // console.log(image.public_id);
     });
