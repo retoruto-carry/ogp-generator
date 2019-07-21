@@ -1,6 +1,5 @@
 require('dotenv').config();
 var cloudinary = require('cloudinary').v2;
-var fs = require('fs');
 
 const commandLineArgs = require('command-line-args');
 const optionDefinitions = [
