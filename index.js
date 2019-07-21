@@ -1,4 +1,4 @@
-require('dotenv').config();
+require('dotenv').config({path: __dirname + "/.env"});
 var cloudinary = require('cloudinary').v2;
 
 const commandLineArgs = require('command-line-args');
