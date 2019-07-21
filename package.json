@@ -1,0 +1,25 @@
+{
+  "name": "ogp-genarator",
+  "version": "1.0.0",
+  "description": "## How to use ```sh $ node index.js --image 画像のURL --title タイトル ```",
+  "main": "index.js",
+  "dependencies": {
+    "cloudinary": "^1.14.0",
+    "command-line-args": "^5.1.1",
+    "dotenv": "^8.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/retoruto-carry/ogp-generator.git"
+  },
+  "author": "retoruto-carry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/retoruto-carry/ogp-generator/issues"
+  },
+  "homepage": "https://github.com/retoruto-carry/ogp-generator#readme"
+}
