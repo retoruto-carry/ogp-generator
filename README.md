@@ -14,5 +14,6 @@ http://res.cloudinary.com/dec7on5qy/image/upload/v1563695045/bb66jpaqpihnjyokcvg
 
 ## How to setup
 1. [cloudinaryのアカウントを取得](https://cloudinary.com/)
-2. APIキーなどの情報をenvファイルに設置して下さい
-3. cloudnaryにwhite_box.pngをアップロードして,white_boxという名前になるように設定してください
+2. APIキーなどの情報をenvファイルに設置
+3. cloudnaryにwhite_box.pngをアップロードして,white_boxという名前になるように設定
+4. `npm install`を実行
